@@ -803,5 +803,6 @@ properly.
 }
 
 
-
-
+/* PERSONAL */
+.port-line {margin: auto !important;
+            height: 10%;}
