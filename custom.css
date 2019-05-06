@@ -2,7 +2,7 @@ html,
 body {
   height: 100% !important;
   font-family: "Roboto", sans-serif;
-  background-color: #F7FFEB;
+  background-color: #f7ffeb;
 }
 
 h1,
@@ -17,7 +17,11 @@ h3 {
 
 .col-4 {
   background: #ff4f40;
-  color: #F7FFEB;
+  color: #f7ffeb;
+}
+
+.col-8 {
+  font-size: 0.8em;
 }
 
 a {
