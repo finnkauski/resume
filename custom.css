@@ -1,0 +1,31 @@
+html,
+body {
+  height: 100% !important;
+  font-family: "Roboto", sans-serif;
+  background-color: #f7ffeb;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Ubuntu", sans-serif;
+}
+
+.col-1,
+.col-3 {
+  background: #ff4f40;
+  color: #f7ffeb;
+}
+
+a {
+  color: #231f20;
+}
+
+hr {
+  border-color: #231f20 !important;
+}
+
+.pads {
+  background-color: #000000;
+  height: 20px;
+}
