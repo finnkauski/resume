@@ -2,7 +2,7 @@ html,
 body {
   height: 100% !important;
   font-family: "Roboto", sans-serif;
-  background-color: #f7ffeb;
+  background-color: #F7FFEB;
 }
 
 h1,
@@ -11,10 +11,14 @@ h3 {
   font-family: "Ubuntu", sans-serif;
 }
 
+.row {
+  height: 100% !important;
+}
+
 .col-1,
 .col-3 {
   background: #ff4f40;
-  color: #f7ffeb;
+  color: #F7FFEB;
 }
 
 a {
@@ -23,9 +27,4 @@ a {
 
 hr {
   border-color: #231f20 !important;
-}
-
-.pads {
-  background-color: #000000;
-  height: 20px;
 }
