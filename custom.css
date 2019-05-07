@@ -1,8 +1,8 @@
+/* general */
 html,
 body {
   height: 100% !important;
-  font-family: "Roboto", sans-serif;
-  background-color: #f7ffeb;
+  font-family: "Fira Sans", sans-serif;
 }
 
 h1,
@@ -15,19 +15,30 @@ h3 {
   height: 100% !important;
 }
 
-.col-4 {
-  background: #ff4f40;
-  color: #f7ffeb;
+/* left bar */
+.left {
+  background: #282a36;
+  color: #f8f8f2;
 }
 
-.col-8 {
+.left hr {
+  border-color: #ff79c6;
+}
+
+.left a {
+  color: #ff79c6;
+}
+
+/* right bar */
+.right {
+  background-color: #f8f8f2;
   font-size: 0.8em;
 }
 
-a {
-  color: #231f20;
+.right hr {
+  border-color: #6272a4;
 }
 
-hr {
-  border-color: #231f20 !important;
+.right a {
+  color: #ff79c6;
 }
