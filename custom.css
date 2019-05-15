@@ -2,14 +2,14 @@
 html,
 body {
   height: 100% !important;
-  font-family: 'IBM Plex Sans', sans-serif;
-
+  font-family: "IBM Plex Sans", sans-serif;
+  background-color: #f8f8f2;
 }
 
 h1,
 h2,
 h3 {
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: "IBM Plex Sans", sans-serif;
   font-weight: bold;
 }
 
