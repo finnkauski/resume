@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+}
+
+/* large elements */
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+  padding: 0 10% 0 10%;
+}
+
+@media print {
+  /* large elements */
+  body {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 0.8em;
+    padding: 0 2% 0 2%;
+  }
+  .container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+}
+@media screen {
+  .container {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    padding-left: 10%;
+  }
+  body {
+    background-color: pink;
+  }
+}
+
+.container-wrap {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+/* right bar */
+.right {
+  width: 50%;
+}
+
+/* left bar */
+.left {
+  width: 40%;
+  margin: 0 2% 0 0;
+}
+
+.name {
+  font-size: 3em;
+}
+
+.quotes {
+  margin: 2em 0 0 0;
+}
+
+/* extras */
+.card {
+  margin: 0.5em 0 0 0;
+}
+
+.bulletpoint {
+  display: flex;
+  align-items: center;
+  font-size: 24;
+  margin: 0 0 0 0.3em;
+  width: 40px;
+}
+
+.card-text {
+  width: 100%;
+  margin: auto;
+}
