@@ -6,9 +6,12 @@
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200;600;700&amp;display=swap" rel="stylesheet" />
     <script src="https://kit.fontawesome.com/006052015f.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+    <style type="text/css"></style>
+    <style type="text/css"></style>
+    <style type="text/css"></style>
     <style type="text/css">
     /*<![CDATA[*/
-    li.c1 {list-style: none}
+    li.c1 {list-style: none; display: inline}
     /*]]>*/
     </style>
 </head>
@@ -19,8 +22,8 @@
             <div id="info">
                 <h1>Art Eidukas</h1>
                 <h3>Software, Data, Art, Music</h3>
-                <p>+44 7562 898 069</p>
-                <p>London, E2 9QG</p>
+                <p>+44 7562 898 069 London, E2 9QG</p>
+                <p><em class="fab fa-github"></em> finnkauski</p>
                 <hr />
             </div>
             <div id="blurb">
@@ -53,48 +56,59 @@
         <div class="right">
             <div id="skills">
                 <div id="programming-languages">
-                    <h2>Technology</h2>
-                    <p>Python, Rust, Haskell</p>
+                    <h2>Programming languages</h2>
+                    <p><strong>Python</strong>, Rust, Haskell</p>
                     <div class="other-technologies">
-                        pyspark, keras, python numerical computing ecosystem, html, css, unix ecosystem, bootstrap,
+                        <p><strong>Other tech - various levels, non-exhaustive</strong></p>
+                        <div class="tags">
+                            <p class="tag"><strong>pyspark</strong></p>
+                            <p class="tag"><strong>python numerical computing &amp; ml</strong></p>
+                            <p class="tag"><strong>html</strong></p>
+                            <p class="tag"><strong>css</strong></p>
+                            <p class="tag"><strong>unix</strong></p>
+                            <p class="tag"><strong>command line</strong></p>
+                            <p class="tag"><strong>rocket</strong></p>
+                            <p class="tag"><strong>elisp</strong></p>
+                            <p class="tag"><strong>R</strong></p>
+                            <p class="tag"><strong>SAS</strong></p>
+                            <p class="tag"><strong>d3</strong></p>
+                            <p class="tag"><strong>reveal.js</strong></p>
+                            <p class="tag"><strong>emacs</strong></p>
+                        </div>
                     </div>
                     <hr />
                 </div>
                 <div id="soft-skills">
                     <h2>Soft skills</h2>
-                    <p>English, Lithuanian, Russian</p>
-                    <ul>
-                        <li class="c1"><span class="fa-li"><em class="fas fa-check-square"></em></span></li>
-                        <li>Finding opportunities for new products</li>
-                        <li>Building strong workplace relationships</li>
-                        <li>Written and oral communication</li>
-                        <li>Making most of cross-disciplinary teams</li>
-                    </ul>
-                    <hr />
+                    <div class="container">
+                        <p><em class="fas fa-hashtag"></em>Finding opportunities for new products</p>
+                        <p><em class="fas fa-hashtag"></em>Building strong workplace relationships</p>
+                        <p><em class="fas fa-hashtag"></em>Written and oral communication</p>
+                        <p><em class="fas fa-hashtag"></em>Making most of cross-disciplinary teams</p>
+                    </div>
+                    <p class="c1"><strong>Languages:</strong> English, Lithuanian, Russian</p>
                 </div>
+                <hr />
             </div>
             <div id="expertise" class="condense">
                 <h2>Experience</h2>
-                <ul>
-                    <li>Natural Language Processing</li>
-                    <li>Distributed Computing</li>
-                    <li>Web based UIs to showcase Data Science Projects</li>
-                    <li>Applying software development practices to Data Science Projects</li>
-                    <li>Quantitative analysis and data manipulation</li>
-                    <li>Reproducible analytical pipelines</li>
-                    <li>Inflation statistics</li>
-                    <li>Comunication Data Science topics to non-technical audiences</li>
-                </ul>
+                <div class="container">
+                    <p><em class="fas fa-hashtag"></em>Natural Language Processing</p>
+                    <p><em class="fas fa-hashtag"></em>Distributed Computing</p>
+                    <p><em class="fas fa-hashtag"></em>Web based UIs (Data Science Projects)</p>
+                    <p><em class="fas fa-hashtag"></em>Applying software development practices to Data Science Projects</p>
+                    <p><em class="fas fa-hashtag"></em>Quantitative analysis and data manipulation</p>
+                    <p><em class="fas fa-hashtag"></em>Reproducible analytical pipelines</p>
+                    <p><em class="fas fa-hashtag"></em>Inflation statistics</p>
+                    <p><em class="fas fa-hashtag"></em>Comunication Data Science topics to non-technical audiences</p>
+                </div>
                 <hr />
             </div>
-            <div id="past-projects">
-                <h2>Past Projects</h2>
-                <ul>
-                    <li>Image analysis of receipts data to extract purchese information in order to supplement existing survey methods</li>
-                    <li>Natural Language Processing to help high-profile Government stakeholders to better utilise free-text data</li>
-                    <li>Developed distributed computing pipelines for Faster Economic Indicators</li>
-                    <li>Developed automated Data Collection pipelines to support experimental prices statistics</li>
-                </ul>
+            <div id="past-projects" class="container">
+                <h2>Some past projects</h2>
+                <p>Natural Language Processing of free-text data (<a href="https://datasciencecampus.ons.gov.uk/o-p-t-i-m-u-s-turning-free-text-lists-into-hierarchical-datasets/">link</a>)</p>
+                <p>Developed distributed computing pipelines for Faster Economic Indicators (<a href="https://datasciencecampus.ons.gov.uk/faster-indicators-of-uk-economic-activity/">link</a>)</p>
+                <p>Image analysis of receipts data for surveys (<a href="https://github.com/datasciencecampus/readpyne">link</a>)</p>
             </div>
         </div>
     </div>
