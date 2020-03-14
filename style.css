@@ -1,0 +1,23 @@
+body {
+  font-family: "IBM Plex Sans", sans-serif !important;
+}
+
+.box {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.left {
+  width: 40%;
+  line-height: 1.3em;
+}
+.right {
+  width: 40%;
+}
+
+.job-title {
+  margin: 1em 0 0.3em 0;
+}
+.job-dates {
+  margin: 0.3em 0 0.3em 0;
+}

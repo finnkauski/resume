@@ -1,90 +1,91 @@
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title>Art Eidukas</title>
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200;600;700&amp;display=swap" rel="stylesheet" />
     <script src="https://kit.fontawesome.com/006052015f.js" crossorigin="anonymous"></script>
-    <style type="text/css" media="screen">
-     body {
-         font-family: 'IBM Plex Sans', sans-serif !important;;
-         line-height: 0.6em;
-     }
-     p {
-         font-weight: 300;
-     }
-     i {
-         font-size: 1.4em;
-         margin: 0 0.3em 0 0;
-     }
-     a {
-         color: ff1230;
-         text-decoration: none;
-     }
-     #top h1 {
-         margin-bottom: 0.2em;
-         font-weight: 700;
-     }
-     #contacts {
-         display: flex;
-         flex-flow: row;
-         align-items: center;
-     }
-     #contacts i {
-         margin-left: 2%;
-     }
-     #icon {
-         height: 5em;
-         margin: 5% 0 5% 0;
-     }
-     #top {
-         max-width: 60%;
-     }
-     .flc {
-         flex-flow: column;
-         display: flex;
-         padding: 0;
-         margin: 0;
-     }
-     .tight {
-         margin: 0;
-         padding: 0;
-     }
-     .sep {
-         height: 1.3vh;
-         width: 40vw;
-         background-color: black;
-         margin: 0em 0em 1em 0em;
-     }
-     #content {
-         padding: 4% 0 0 10%;
-         margin-right: auto;
-         margin-left: auto;
-     }
-     #bottom {
-         padding-top: 4%;
-     }
-    </style>
-</head>
-
-
+    <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
 </head>
 <body>
-    <div id="content">
-        <div id="top">
-            <img id="icon" src="original.svg" alt="" />
-            <div class="flc">
-                <h1>Art  Eidukas</h1>
-                <p>Software, Data, Economics, Art</p>
-                <div class="sep"></div>
-                <div id="contacts" class="flc">
-                    <i class="fab fa-github"></i>
-                    <a class="tight" href="https://github.com/finnkauski/">finnkauski</a>
-                    <i class="far fa-envelope"></i>
-                    <a class="tight" href="mailto:iwiivi@gmail.com">iwiivi@gmail.com</a>
+    <div class="box">
+        <div class="left">
+            <div id="info">
+                <h1>Art Eidukas</h1>
+                <h3>Software, Data, Art, Music</h3>
+                <p>+44 7562 898 069</p>
+                <p>London, E2 9QG</p>
+                <hr />
+            </div>
+            <div id="blurb">
+                <p>Pragmatic Data Scientist with a background in Economic Statistics, interest in software development and a delivery-focused attitude towards business problems. Able to leverage existing knowledge and experience, learn and adapt quickly and consistently deliver high quality outputs in an agile fashion.</p>
+                <hr />
+            </div>
+            <div id="education">
+                <h2>Education</h2>
+                <p>BSc Hons. Economics (with industrial placement)</p>
+                <p>University of Bradford, 2012 - 2016</p>
+                <hr />
+            </div>
+            <div id="job-history">
+                <h2>Job history</h2>
+                <div class="history-item">
+                    <h4 class="job-title">Senior Devops/Software Engineer (Data Science)</h4>
+                    <p class="job-dates">Oct '19 - present</p>
                 </div>
+                <div class="history-item">
+                    <h4 class="job-title">Data Scientist</h4>
+                    <p class="job-dates">Dec '17 - Sep '19</p>
+                </div>
+                <div class="history-item">
+                    <h4 class="job-title">Economic Researcher</h4>
+                    <p class="job-dates">Sep '15 - Dec '17</p>
+                </div>
+                <hr />
             </div>
         </div>
-        <div id="bottom">
-            aaaa
+        <div class="right">
+            <div id="skills">
+                <div id="programming-languages">
+                    <h2>Programming</h2>
+                    <p>python</p>
+                    <p>Rust, Haskell, R, SAS</p>
+                    <p>English, Lithuanian, Russian</p>
+                </div>
+                <div id="soft-skills">
+                    <ul>
+                        <li>Finding opportunities for new products</li>
+                        <li>Building strong workplace relationships</li>
+                        <li>Written and oral communication</li>
+                        <li>Making most of cross-disciplinary teams</li>
+                    </ul>
+                </div>
+                <div class="other-technologies">
+                    pyspark, keras, python numerical computing ecosystem, html, css, unix ecosystem, bootstrap,
+                </div>
+            </div>
+            <div id="expertise">
+                <h2>Experience</h2>
+                <ul>
+                    <li>Natural Language Processing</li>
+                    <li>Distributed Computing</li>
+                    <li>Web based UIs to showcase Data Science Projects</li>
+                    <li>Applying software development practices to Data Science Projects</li>
+                    <li>Quantitative analysis and data manipulation</li>
+                    <li>Reproducible analytical pipelines</li>
+                    <li>Inflation statistics</li>
+                    <li>Comunication Data Science topics to non-technical audiences</li>
+                </ul>
+            </div>
+            <div id="past-projects">
+                <h2>Past Projects</h2>
+                <ul>
+                    <li>Image analysis of receipts data to extract purchese information in order to supplement existing survey methods</li>
+                    <li>Natural Language Processing to help high-profile Government stakeholders to better utilise free-text data</li>
+                    <li>Developed distributed computing pipelines for Faster Economic Indicators</li>
+                    <li>Developed automated Data Collection pipelines to support experimental prices statistics</li>
+                </ul>
+            </div>
         </div>
     </div>
 </body>
