@@ -12,6 +12,7 @@ body {
   line-height: 1.3em;
 }
 .right {
+  margin-top: 1%;
   width: 40%;
 }
 
@@ -20,4 +21,23 @@ body {
 }
 .job-dates {
   margin: 0.3em 0 0.3em 0;
+}
+
+.logo {
+  margin-top: 5%;
+  height: 150px;
+}
+
+.right h2 {
+  margin: 0;
+}
+
+.left h2 {
+  margin-top: 0.3em;
+}
+
+hr {
+  height: 1em;
+  background: black;
+  margin-bottom: 0;
 }

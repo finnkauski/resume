@@ -6,10 +6,16 @@
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200;600;700&amp;display=swap" rel="stylesheet" />
     <script src="https://kit.fontawesome.com/006052015f.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+    <style type="text/css">
+    /*<![CDATA[*/
+    li.c1 {list-style: none}
+    /*]]>*/
+    </style>
 </head>
 <body>
     <div class="box">
         <div class="left">
+            <div id="logo"><img src="original.svg" class="logo" alt="" /></div>
             <div id="info">
                 <h1>Art Eidukas</h1>
                 <h3>Software, Data, Art, Music</h3>
@@ -47,24 +53,27 @@
         <div class="right">
             <div id="skills">
                 <div id="programming-languages">
-                    <h2>Programming</h2>
-                    <p>python</p>
-                    <p>Rust, Haskell, R, SAS</p>
-                    <p>English, Lithuanian, Russian</p>
+                    <h2>Technology</h2>
+                    <p>Python, Rust, Haskell</p>
+                    <div class="other-technologies">
+                        pyspark, keras, python numerical computing ecosystem, html, css, unix ecosystem, bootstrap,
+                    </div>
+                    <hr />
                 </div>
                 <div id="soft-skills">
+                    <h2>Soft skills</h2>
+                    <p>English, Lithuanian, Russian</p>
                     <ul>
+                        <li class="c1"><span class="fa-li"><em class="fas fa-check-square"></em></span></li>
                         <li>Finding opportunities for new products</li>
                         <li>Building strong workplace relationships</li>
                         <li>Written and oral communication</li>
                         <li>Making most of cross-disciplinary teams</li>
                     </ul>
-                </div>
-                <div class="other-technologies">
-                    pyspark, keras, python numerical computing ecosystem, html, css, unix ecosystem, bootstrap,
+                    <hr />
                 </div>
             </div>
-            <div id="expertise">
+            <div id="expertise" class="condense">
                 <h2>Experience</h2>
                 <ul>
                     <li>Natural Language Processing</li>
@@ -76,6 +85,7 @@
                     <li>Inflation statistics</li>
                     <li>Comunication Data Science topics to non-technical audiences</li>
                 </ul>
+                <hr />
             </div>
             <div id="past-projects">
                 <h2>Past Projects</h2>
