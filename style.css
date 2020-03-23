@@ -2,6 +2,9 @@ body {
   font-family: "IBM Plex Sans", sans-serif !important;
 }
 
+.inline {
+  display: inline;
+}
 /* TODO: sort out the width on phones*/
 .box {
   display: flex;
